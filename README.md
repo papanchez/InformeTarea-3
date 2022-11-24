@@ -461,34 +461,194 @@ RT = 1/6,8 kΩ * 12= 6,8kΩ/12 = 567Ω
 ![image](https://user-images.githubusercontent.com/116771507/203686344-42fde50d-fa7b-4c10-bb33-34915a5e6abb.png)
 
 
+SECCIÓN 6–5 Aplicación de la ley de Ohm
+
+23. Tres resistores de 33 Ω están conectados en paralelo con una fuente de 110 V. ¿Cuál es la corriente suministrada por la fuente?
+
+I = 110V/33Ω * 3 = 330V/33Ω = 10A
+
+25. Muchos tipos de luces decorativas están conectados en paralelo. Si se conecta un juego de luces a una fuente de 110 V y si la resistencia en caliente del filamento de cada foco es de 2.2 kΩ, ¿cuál es la corriente a través de cada foco? ¿Por qué es mejor tener estos focos en paralelo y no en serie?
+
+I = 110 V/2,2 kΩ = 50 mA = 0,05 A
+
+Es mejor tener focos en paralelo porque si estuvieran en serie si uno se funde todos los demás focos se apagarían hasta encontrar el que es el problema, pero en parapelo no importa si uno se funde el circuito sigue funcionando.
+
+27. ¿A qué valor mínimo se puede ajustar el reóstato de 100 Ω mostrado en la figura 6-75 antes de que el fusible de 0.5 A se funda?
+
+![image](https://user-images.githubusercontent.com/116771507/203687936-a2287156-8533-4de5-a5f1-50befe2918e2.png)
+
+RT = V/I = 15 V/0,5 A = 30 Ω
+
+RT = 1/R1 + 1/R2 = 1/R2 = 1/RT - 1/R1
+
+1/R2 = 1/30Ω - 1/68Ω
+
+1/R2 = 68 - 30/2040 Ω = R2 = 2040 Ω/38 = 53,68 Ω
+
+29. Encuentre los valores de las cantidades no especificadas en la figura 6-77.
+
+![image](https://user-images.githubusercontent.com/116771507/203688119-6ce431e9-e7c0-4f16-93c8-65ea6b0e2aaa.png)
+
+R1 = 100V/50mA = 2kΩ
+
+I2 = IR - I3 = 250mA - 83,3mA = 167mA
+
+I3 = 100 V/1,2 kΩ = 83,3 mA
+
+TI = I1 + I2 + I3
+
+IT = 50mA + 83,3mA + 167mA = 300mA
+
+R2 = 100 V/167 mA = 100 V/0,167 A = 598,88 Ω
+
+SECCIÓN 6–6 Fuentes de corriente en paralelo
+
+31. Determine la corriente a través del resistor para cada una de las posiciones de interruptor calibradas en la figura 6-79.
+
+![image](https://user-images.githubusercontent.com/116771507/203688490-f143858a-faea-47e0-9a28-f0d76e9e710a.png)
+
+A)  2.25mA  B) 4.75mA
+
+C = 2.25mA + 4.75mA = 7mA
+
+SECCIÓN 6–7 Divisores de corriente
+
+33. Determine la corriente en cada uno de los divisores de corriente mostrados en la figura 6-81.
+
+![image](https://user-images.githubusercontent.com/116771507/203688622-6da7b09e-2284-42cf-8bf2-7def95411e44.png)
+
+a) RT = 1/(1/1,0 MΩ) + (1/2,2 MΩ) = 2,2 MΩ/3,2 = 687,5 Ω
+
+I1 = (RT/Rx)*IT = (687,5Ω/22000000Ω) * 10uA = 6,88uA
+
+I2 = (RT/Rx)*IT = (687,5 Ω/2200000 Ω) * 10uA = 3,13uA
+
+b) TR = 1/(1/R1) + (1/R2) + (1/R3) + (1/R4)
+
+TR = 1/(1/1,0 + 1/2,2 + 1/3,3 + 1/6,8) kΩ  = 525Ω
+
+I1 = (RT/Rx)*IT = (525Ω/1000Ω) * 10mA = 5,25mA
+
+I2 = (525Ω/2200Ω) * 10uA = 2,39mA
+
+I3 = (525Ω/3300Ω) * 10mA = 1,59mA
+
+I4 = (525Ω/6800Ω) * 10uA = 0,772mA
+
+35. Determine todos los valores de resistor en la figura 6-83. RT= 773 Ω
+
+![image](https://user-images.githubusercontent.com/116771507/203688944-fb4fd35c-c00f-4917-88b8-ac0a12090841.png)
+
+I3 = TI - I1 - I2 - I4= 15,53 mA - 3,64 mA - 6,67 mA - 3,08 mA = 2,14 mA
+
+VT = TI RT = VT = 0.016A 773Ω = 12V
+
+Rx = TV/Ix
+
+R1 = 12 V/0,00364 A = 3,3 kΩ
+
+R2 = 12 V/0,00667 A = 1,8 kΩ
+
+R3 = 12 V/0,00214 A = 5,6 kΩ
+
+R4 = 12 V/0,00308 A = 3,9 kΩ
+
+*37. En el mercado están disponibles resistores en derivación especialmente diseñados para detectar caídas de voltaje de 50 mV en aplicaciones de medición de corrientes altas. Se conecta un voltímetro de 50 mV, 10 kΩ de escala completa entre la derivación para realizar la medición.
+
+(a) ¿Qué valor de resistencia en derivación se requiere para utilizar un medidor de 50 mV en una aplicación de medición de 50 A?
+
+R = 50mV/50A = 1mΩ
+
+(b) ¿Cuánta corriente circula por el medidor?
+
+I = 50mV/10kΩ = 5 uA
+
+SECCIÓN 6–8 Potencia en circuitos en paralelo
+
+39. Determine la potencia total en cada uno de los circuitos de la figura 6-81.
+
+![image](https://user-images.githubusercontent.com/116771507/203689178-75bc79ab-43ed-43cd-b5de-185790a32a2d.png)
 
 
+a) RT = 687,5Ω
+
+PT = 0,01^2*687,5 Ω = 0,069 W = 68,8 mW
+
+b)RT = 525Ω
+
+PT = 0,01^2*525Ω = 0,053W = 52,5 mW
+
+*41. Encuentre los valores de las cantidades no especificadas en la figura 6-84.
+
+![image](https://user-images.githubusercontent.com/116771507/203689355-fe4e32d0-70c0-4e3d-8b91-bacb15912f69.png)
+
+Vs = TE/TI = 2W/0,2A = 10V
+
+I2 = P2/Vs = 0,75 W/10 V = 75 mA
+
+R2 = Vs^2/P2 = 10^2V/0,75W = 133,33Ω
+
+P1 = PT-P2 = 2W-0,75W = 1,25W
+
+R1 = Vs^2/P1 = 10^2V/1,25W = 80Ω
+
+I1 = P1/Vs = 1,25 W/10 V = 125 mA
+
+SECCIÓN 6–10 Localización de fallas
+
+43. Si en el problema 40 se funde uno de los focos, ¿cuánta corriente circulará a través de cada foco restante? ¿Cuál será la corriente total?
+
+Ix = Px/VT = 75W/110V = 682mA
+
+IT = Ix * focos conectados = 682mA * 5 = 3410mA = 3.41A
 
 
+45. ¿Qué está mal con el circuito de la figura 6-86?
+
+![image](https://user-images.githubusercontent.com/116771507/203689519-4eb9737b-3db8-4509-97ec-353d7724c74b.png)
+
+Según el amperímetro este circuito no tiene falla o desconexción alguna.
+
+*47. Desarrolle un procedimiento de prueba para revisar la tarjeta de circuito mostrada en la figura 6-87 y asegurarse de que no hay componentes abiertos. Debe realizar esta prueba sin quitar el componente de la tarjeta. Describa el procedimiento en un formato detallado paso a paso.
+
+![image](https://user-images.githubusercontent.com/116771507/203689661-be145c6c-6eb3-4d92-a8e0-a2f2585d6f94.png)
 
 
+a) R1 y R2 => R = 1/1.0kΩ + 1/3.3kΩ = 767Ω
+
+b) R3 y R4 => R = 1/270Ω + 1/390Ω = 159,5Ω
+
+c) R5 y R6 => R = 1/1000kΩ + 1/1800kΩ + 1/680kΩ + 1/510kΩ = 201kΩ
+
+R5 abierto => R = 1/1800kΩ + 1/680kΩ + 1/510kΩ = 251kΩ
+
+R6 abierto => R = 1/1000kΩ + 1/680kΩ + 1/510kΩ = 226kΩ
+
+R7 abierto => R = 1/1000kΩ + 1/1800kΩ + 1/510kΩ  = 284kΩ
+
+R8 abierto => R = 1/1000kΩ + 1/1800kΩ + 1/680kΩ = 330kΩ
+
+* 49. Para el circuito mostrado en la figura 6-88, determine la resistencia entre las siguientes puntas si existe un corto entre las puntas 3 y 4:
+
+![image](https://user-images.githubusercontent.com/116771507/203690050-7ba66644-08db-4968-b790-3629fac5d9a6.png)
 
 
+(a) En las Resistencias 1 y 2 existe un corto dedido a que no interviene ninguna conexión entre ellos. 
 
 
+(b) Entre las Resistencias 2 y 3 no existe ningún corto. 
 
 
+(c) Entre las Resistencias 2 y 4 existe un corto dedido a que no interviene ninguna conexión entre ellos. 
 
 
+(d) Entre las Resistencia 1 y 4 no existe ningún corto.
 
+5. CONCLUSIONES
 
+6. VIDEO 
 
-
-
-
-
-
-
-
-
-
-
-
+7 BIBLIOGRAFÍA
 
 
 
