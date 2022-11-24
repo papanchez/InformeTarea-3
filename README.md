@@ -161,18 +161,69 @@ SECCIÓN 5–5 Fuentes de voltaje en serie
 vs = V1 + V2= 5V + 9V= 14V
 
 
+29. Determine el voltaje de fuente total en cada circuito de la figura 5-79
+
+![image](https://user-images.githubusercontent.com/116771507/203679317-3626f7ad-2e19-4adf-841b-175dfbb58c52.png)
+
+a)Vs = Vs1 + Vs2 + Vs3 = 8V + 10V + 5V = 23V
+
+b)Vs = 50V + 10V - 25V = 35V
+
+c) Vs = 8V - 8V = 0V
+
+SECCIÓN 5–6 Ley del voltaje de Kirchhoff
+
+31. Cinco resistores están dispuestos en serie con una fuente de 20 V. Las caídas de voltaje a través de cuatro de los resistores son: 1.5 V, 5.5 V, 3 V, y 6 V. ¿Cuál es la caída de voltaje en el quinto resistor?
+
+vs = V1 + V2 + V3 + V4 + V5
+
+20 = 1,5 + 5,5 + 3 + 6 + V5
+
+V5 = 4V
+
+33. En el circuito de la figura 5-81, determine la resistencia de R4
+
+![image](https://user-images.githubusercontent.com/116771507/203679564-945be8d6-895d-4b0d-8d59-bc5023f95dfb.png)
 
 
+V = 11,2 V + 5,4 V + 0,94 V + 4,4 V = 21,94 V
+
+Yo = V/R = Yo = 11,2 V/56 Ω = 0,2 A
+
+R4 = V4/I = R4 = 4,4 V/0,2 A = 22 Ω
 
 
+35. Determine el voltaje a través de R5 para cada una de las posiciones del interruptor de la figura 5-83. La
+corriente en cada posición es como sigue: A, 3.35 mA; B, 3.73 mA; C, 4.50 mA; D, 6.00 mA.
 
+A) R=18V/3.35 mA=5.37kΩ
 
+RT=> 5.37kΩ=4.18kΩ+R5 => R5=1.19kΩ
 
+V= 3.3mA*1.19kΩ=3.99V
 
+B) R=18V/3.73 mA=4.83 kΩ
 
+RT=> 4.83kΩ=3.62kΩ+R5 => R5=1.21 kΩ
 
+V=3.73 mA*1.21kΩ= 4.51 V
 
+C) R=18V/4.50mA=4kΩ
 
+RT=> 4KΩ=2.8KΩ+R5 => R5=1.2KΩ
+
+V=4.50mA*1.2 kΩ= 5.4V
+
+D) 18V/6.00mA= 3kΩ
+
+RT=> 3kΩ=1.8 kΩ+R5 => R5=1.2kΩ
+
+V=6.00mA*1.2 kΩ= 7.2 V
+
+SECCIÓN 5–7 Divisores de voltaje
+
+*37. La resistencia total de un circuito es de 560 Æ. ¿Qué porcentaje del voltaje total aparece a través de un
+resistor de 27 Æ que forma parte de la resistencia total en serie?
 
 
 
