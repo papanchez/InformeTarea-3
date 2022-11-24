@@ -188,7 +188,7 @@ V5 = 4V
 
 V = 11,2 V + 5,4 V + 0,94 V + 4,4 V = 21,94 V
 
-Yo = V/R = Yo = 11,2 V/56 Ω = 0,2 A
+I = V/R = I = 11,2 V/56 Ω = 0,2 A
 
 R4 = V4/I = R4 = 4,4 V/0,2 A = 22 Ω
 
@@ -222,8 +222,150 @@ V=6.00mA*1.2 kΩ= 7.2 V
 
 SECCIÓN 5–7 Divisores de voltaje
 
-*37. La resistencia total de un circuito es de 560 Æ. ¿Qué porcentaje del voltaje total aparece a través de un
-resistor de 27 Æ que forma parte de la resistencia total en serie?
+*37. La resistencia total de un circuito es de 560 Ω . ¿Qué porcentaje del voltaje total aparece a través de un
+resistor de 27 Ω que forma parte de la resistencia total en serie?
+
+![image](https://user-images.githubusercontent.com/116771507/203680115-fdeb4c0d-6629-41bd-bdeb-1a0d0f6eb8e0.png)
+
+I = v/560Ω
+
+Vx = I*Rx = VR27 = V/560Ω * 27Ω
+
+% = V*27Ω/560Ω/V * 100
+
+% = V 27 Ω /V 560 Ω * 100 = 4,82
+
+39. Determine el voltaje con respecto a tierra para las salidas A, B y C en la figura 5-85(a).
+
+![image](https://user-images.githubusercontent.com/116771507/203680345-93942cd5-2bcc-4971-b93b-11a36a38341b.png)
+
+A) Vx = (Vs/RT) Rx = VA = (5V/18,9kΩ) 5,6kΩ = 4,44V
+
+B) VB= (5V/18.9kΩ) 10KΩ= 7.94V
+
+C) VC= (5V/18,9kΩ) 3,3kΩ = 2,62V
+
+*41. ¿Cuál es el voltaje a través de cada resistor mostrado en la figura 5-86? R es el resistor de valor más
+bajo, y todos los demás resistores son múltiplos de dicho valor como se indica.
+
+![image](https://user-images.githubusercontent.com/116771507/203680514-caaa7f81-be6b-4cac-b5db-f257768b2908.png)
+
+I = V/R + 2R + 3R + 4R + 5R = 90V/15R
+
+Vx = I*Rx
+
+V1 = 90V/15R * R = 6V
+
+V2 = 90V/15R * 2R = 12V
+
+V3 = 90V/15R * 3R = 18V
+
+V4 = 90V/15R * 4R = 24V
+
+V5 = 90V/15R * 5R = 30V
+
+43. Si hay 10 V a través de R1 en la figura 5-88, ¿cuál es el voltaje en cada uno de los demás resistores?
+
+![image](https://user-images.githubusercontent.com/116771507/203680637-dd1c7670-588f-4f99-90c1-4e4e0a47ad06.png)
+
+I = V/R = 10 V/5,6 kΩ = 1,79 mA
+
+Vx = I*Rx
+
+V2 = 1,79mA*1kΩ = 1,79V
+
+V3 = 1,79 mA*0,56 kΩ = 1,0024 V
+
+V4 = 1,79 mA*10 kΩ = 17,9 V
+
+*45. Diseñe un divisor de voltaje variable para producir un voltaje de salida ajustable desde un mínimo de 10 V hasta un máximo de 100 V dentro del 61% con una fuente de 1 a 120 V. El voltaje máximo debe ocurrir en el ajuste de resistencia máxima del potenciómetro, y el voltaje mínimo debe ocurrir en el ajuste de resistencia mínima (cero). La corriente tiene que ser de 10 mA.
+
+![image](https://user-images.githubusercontent.com/116771507/203681514-e504e47d-e9c0-4385-a74d-4544b9e453a9.png)
+
+SECCIÓN 5–8 Potencia en circuitos en serie
+
+47. ¿Cuál es la potencia total en el circuito de la figura 5-88? Use los resultados del problema 43
+
+![image](https://user-images.githubusercontent.com/116771507/203681565-f7ac7fef-f751-4c99-b067-a77e5f27e333.png)
+
+V = 10 + 1,79 + 1,0024 + 17,9 = 30,69 V
+
+PT = Vs I = PT = 30,69 V 1,79 mA = 54,93 mW
+
+49. Encuentre RT en la figura 5-89.
+
+![image](https://user-images.githubusercontent.com/116771507/203681617-c403b500-774f-47a2-a47a-2aa08aebb5e9.png)
+
+I = V/R = 12 V/5,6 MΩ = 2,14 uA
+
+R2 = V2/I = 4.8V/2.14uA = 2.24MΩ
+
+R3 = P/I^2 = 21,5uW/(2,14uA)^2 = 4,70MΩ
+
+RT = R1 + R2 + R3 = 5,6 MΩ + 2,24 MΩ + 4,70 MΩ = 12,54 MΩ
+
+
+SECCIÓN 5–9 Mediciones de voltaje
+
+51. En la figura 5-90, determine el voltaje en cada punto con respecto a tierra
+
+![image](https://user-images.githubusercontent.com/116771507/203681863-489c217f-d8aa-48d8-8bd1-cf94632b6335.png)
+
+I = V/R = 100 V/13,2 kΩ = 7,58 mA
+
+V = I*R
+
+Va = 7,58 mA * 13,2 kΩ = 100 V
+
+Vb = 7,58 mA * 7,6 kΩ = 57,61 V
+
+Vc = 7,58 mA * 2 kΩ = 15,16 V
+
+Vd = 7,58 mA * 1 kΩ = 7,58 V
+
+53. En la figura 5-91, determine el voltaje en cada punto con respecto a tierra.
+
+![image](https://user-images.githubusercontent.com/116771507/203681962-021d5ec1-298f-43d1-abe2-68c9828ee687.png)
+
+Vs = 15V - 9V = 6V
+
+I = V/R = 6V/1816kΩ = 3.30uA
+
+
+Va = 3.30uA * 1760kΩ = 5.81V
+
+Vb = 3.30uA * 1200kΩ = 3.96V
+
+Vc = 3,30uA * 1100kΩ = 3,63V
+
+Vd = 3,30uA * 100kΩ = 0,33V
+
+SECCIÓN 5–10 Localización de fallas.
+
+55. Observe los medidores de la figura 5-92 y determine los tipos de fallas ocurridos en los circuitos y qué
+componentes fallaron.
+
+![image](https://user-images.githubusercontent.com/116771507/203682154-90962775-5142-432a-82cb-37422729e273.png)
+
+a) Como se puede observar con ayuda del voltímetro, el voltaje no circula a través del circuito en serie, por lo qu epodemos concluir que esla resistencia 4 la que ya no funciona crorrectamente pues al medir su voltaje nos da los mismo 12V.
+
+b) Debido a una mala conexión entre las resistencias se provocó un cortocircuito, y nos podemos dar cuenta de ello porque  entre A y B nos da un amperaje de 0 mA, dandonos a entender que el error puede encontrarse entre la resistencia 4 o 5.
+
+*57. La tabla 5-1 muestra los resultados de mediciones de resistencia efectuadas en la tarjeta de circuito impreso que aparece en la figura 5-93. ¿Son correctos estos resultados? Si no, identifique los posibles problemas.
+
+![image](https://user-images.githubusercontent.com/116771507/203682867-ddb33c44-4913-4f96-970e-f53be9b9693d.png)
+![image](https://user-images.githubusercontent.com/116771507/203682889-ccc66623-681b-4e20-91f1-370bb2ec3c91.png)
+
+En este caso en particular no se puede identificar si los datos son verídicos o no, debido a que el texto se encuentra en blanco y negro, sin emabrgo una froma de confrimar dicho datos es mediante las bandas de colores que nos dic el valor de cada resistecnia basandonos en sus colores. Por otro lado las mediciones que nos dan infnito son correctas debido a que el circuito se encuentra abierto por lo que esas trayectorias son abiertas.
+
+*59. Al examinar la tarjeta de circuito impreso de la figura 5-93, se miden 17.83 kΩ entre las puntas 1 y 2. Asimismo, 13.6 kΩ entre las puntas 2 y 4. ¿Indica esto un problema en la tarjeta de circuito impreso? De ser así, identifíquelo
+
+![image](https://user-images.githubusercontent.com/116771507/203683236-c744e383-6bc5-42f9-abdc-f6a3d5422e0f.png)
+
+Se puede identificar un problema en las puntas 1 y 2, pues el circuito está abierto, por lo que las resistencias no podrían tener dicho valor, pues como vse vió en el anterior ejercicio en un circuito abierto el valor de las resistencias suelene ser infinito.
+
+SECCIÓN 6–1 Resistencias en paralelo
+
 
 
 
