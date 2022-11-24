@@ -366,6 +366,120 @@ Se puede identificar un problema en las puntas 1 y 2, pues el circuito está abi
 
 SECCIÓN 6–1 Resistencias en paralelo
 
+1. Muestre cómo conectar los resistores de la figura 6-65(a) en paralelo entre las terminales de una batería
+
+![image](https://user-images.githubusercontent.com/116771507/203683650-f93a2cf0-3579-473d-9b9f-16a002e0f830.png)
+
+![image](https://user-images.githubusercontent.com/116771507/203684280-8bc690e9-610c-41b1-a017-a77a44b0492d.png)
+
+
+*3. Identifique los grupos de resistores que están en paralelo en la tarjeta de circuito impreso de doble cara mostrada en la figura 6-66.
+
+![image](https://user-images.githubusercontent.com/116771507/203684694-01c228bb-3557-45d7-a309-9636912fbc1c.png)
+
+Rojo: R1, R2, R5, R9, R10 y R12.
+
+Negro: R4, R6, R7 Y R8.
+
+Morado: R3 y R11.
+
+SECCIÓN 6–2 Voltaje en un circuito en paralelo
+
+5. El voltaje de fuente en la figura 6-67 es de 100 V. ¿Cuánto voltaje lee cada uno de los medidores?
+
+
+![image](https://user-images.githubusercontent.com/116771507/203684865-4983c800-2b01-43ea-b732-e30d9f3810c0.png)
+
+Ya que el  circuito está conectado en paralelo, el voltaje es constante, por lo que marcará 100v en cada medidor.
+
+7. ¿Cuál es el voltaje entre los extremos de cada resistor incluido en la figura 6-68 para cada posición del
+interruptor?
+
+
+![image](https://user-images.githubusercontent.com/116771507/203685043-f0afa72e-9c49-4c66-99d5-8c64396f0e36.png)
+
+A)  V1 = 15V, V2 = 0V, V3 = 0V, V4 = 15V
+
+B)  V1 = 15V, V2 = 0V, V3 = 15V, V4 = 0V
+
+C)  V1 = 15V, V2 = 15V, V3 = 0V, V4 = 0V
+
+SECCIÓN 6–3 Ley de las corrientes de Kirchhoff
+
+9. Se leen las siguientes corrientes en la misma dirección en un circuito de tres ramas en paralelo: 250 mA, 300 mA y 800 mA. ¿Cuál es el valor de la corriente que llega a la unión de las tres ramas?
+
+TI = I1 + I2 + I3 = 250mA + 300mA + 800mA = 1350mA
+
+11. En el circuito de la figura 6-69, determine la resistencia en R2, R3 y R4
+
+![image](https://user-images.githubusercontent.com/116771507/203685288-7488b8c2-4899-46f0-99d0-c86fb82741eb.png)
+
+
+IA = IT - I1 - I2 - I3 = 0,00142A
+
+V = I1*R1 = (0,001 A) (47 Ω) = 0,047 V
+
+R2 = 0,047 V/0,00214 A = 22 Ω
+
+R3 = 0,047 V/0,00047 A = 100 Ω
+
+R4 = 0,047 V/0,00142 A = 33 Ω
+
+* 13. La resistencia total de un circuito en paralelo es de 25 Ω. ¿Cuál es la corriente a través de un resistor
+de 220 Ω que forma parte de este circuito si la corriente total es de 100 mA?
+
+VT = IT*RT = (100mA) (25Ω) = 2500mV
+
+I = VT/RN = 2500mV/220Ω = 11,36mA
+
+SECCIÓN 6–4 Resistencia total en paralelo
+
+15. Encuentre la resistencia total de cada uno de los siguientes grupos de resistores en paralelo:
+
+a) RT = 1/(1/560Ω + 1/1000Ω)= 359 Ω
+
+b) RT = 1/(1/47Ω + 1/56Ω)= 25,6 Ω
+
+c) RT = (1/1,5kΩ + 1/2,2kΩ + 1/10kΩ)= 819Ω
+
+d) RT = 1/(1/1,0 MΩ + 1/0,47 MΩ + 1/0,001 MΩ + 1/2,7 MΩ)= 994 Ω
+
+17. ¿Cuál es la resistencia total de doce resistores de 6.8 kΩ dispuestos en paralelo?
+
+RT = 1/6,8 kΩ * 12= 6,8kΩ/12 = 567Ω
+
+19. Encuentre la resistencia total de todo el circuito en paralelo descrito en el problema 18
+
+1) RT= 470 Ω /5=  94 Ω
+
+3) RT= 100 Ω/10= 10 Ω
+
+5) RT= 100 Ω/2= 50 Ω
+
+21. ¿Cuál es la resistencia total entre el punto A y tierra en la figura 6-72 en las siguientes condiciones?
+
+![image](https://user-images.githubusercontent.com/116771507/203686344-42fde50d-fa7b-4c10-bb33-34915a5e6abb.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
