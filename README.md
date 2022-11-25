@@ -665,15 +665,15 @@ R8 abierto => R = 1/1000kΩ + 1/1800kΩ + 1/680kΩ = 330kΩ
 
 (d) Entre las Resistencia 1 y 4 no existe ningún corto.
 
-5. CONCLUSIONES
+4. CONCLUSIONES
 
 Durante la realización de este informe se comprendio las diferentes características existentes ya sea en circuitos en serie o en paralelo, además se amplió el conocimiento sobre las leyes de kirchhoff y Ohm mediantes los ejercicios realizados; asimismo se entendió como se realiza el calculo de las resisitencias totales en los dos tipos de circuitos pues se comportan de manera diferente dependiendo del circuito, mejorando la comprensión del tema. 
 
-6. VIDEO 
+5. VIDEO 
 
 
 
-7 BIBLIOGRAFÍA
+6. BIBLIOGRAFÍA
 
 FLOYD, THOMAS L. Principios de circuitos eléctricos. Octava edición. PEARSON EDUCACIÓN, México, 2007.
 
