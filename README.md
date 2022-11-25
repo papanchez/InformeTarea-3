@@ -8,6 +8,16 @@ OBJETIVOS ESPECÍFICOS
 
 2. MARCO CONCEPTUAL
 
+![CIRCUITOS EN SERIE  P1](https://user-images.githubusercontent.com/116771507/203892911-da45e734-04b7-466f-92fb-c7f0bd1a8a63.png)
+
+![CIRCUITOS EN SERIE  P2](https://user-images.githubusercontent.com/116771507/203892927-ba7d01d4-9992-4a92-a318-10bf6d4095e5.png)
+
+![CIRCUITOS EN PARALELO  P1](https://user-images.githubusercontent.com/116771507/203892940-90eb28d1-7a37-4928-95b2-cc0aacac4c5a.png)
+
+![CIRCUITOS EN PARALELO  P2](https://user-images.githubusercontent.com/116771507/203892947-2d7a7bab-5d9f-4bb1-9e64-7ca663ffa6f8.png)
+
+
+
 3. RESOLUCIÓN DE EJERCICIOS
 
 SECCIÓN 5–1 Resistencias en serie
