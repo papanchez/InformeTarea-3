@@ -675,7 +675,7 @@ Durante la realización de este informe se comprendio las diferentes caracterís
 
 7 BIBLIOGRAFÍA
 
-
+FLOYD, THOMAS L. Principios de circuitos eléctricos. Octava edición. PEARSON EDUCACIÓN, México, 2007.
 
 
 
