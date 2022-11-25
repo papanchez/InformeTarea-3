@@ -4,18 +4,18 @@
 
 OBJETIVOS GENERALES
 
-Aprender las características de los circuito en serie y en paralelo.
+* Aprender las características de los circuito en serie y en paralelo.
 
-Definir las posibles aplicaciones de las leyes de Ohm y kirchhoff en circuitos en serie y en paralelo.
+* Definir las posibles aplicaciones de las leyes de Ohm y kirchhoff en circuitos en serie y en paralelo.
 
 
 OBJETIVOS ESPECÍFICOS
 
-Estudiar sobre el cálculo de resisitencias, corriente y voltaje en circuitos en serie y en paralelo.
+* Estudiar sobre el cálculo de resisitencias, corriente y voltaje en circuitos en serie y en paralelo.
 
-Identificar los posibles errores exitentes en los dos tipos de circuitos.
+* Identificar los posibles errores exitentes en los dos tipos de circuitos.
 
-Conocer las formulas para realizar los cálculos requeridos.
+* Conocer las formulas existentes para realizar los cálculos requeridos.
 
 2. MARCO CONCEPTUAL
 
@@ -667,7 +667,11 @@ R8 abierto => R = 1/1000kΩ + 1/1800kΩ + 1/680kΩ = 330kΩ
 
 5. CONCLUSIONES
 
+Durante la realización de este informe se comprendio las diferentes características existentes ya sea en circuitos en serie o en paralelo, además se amplió el conocimiento sobre las leyes de kirchhoff y Ohm mediantes los ejercicios realizados; asimismo se entendió como se realiza el calculo de las resisitencias totales en los dos tipos de circuitos pues se comportan de manera diferente dependiendo del circuito, mejorando la comprensión del tema. 
+
 6. VIDEO 
+
+
 
 7 BIBLIOGRAFÍA
 
